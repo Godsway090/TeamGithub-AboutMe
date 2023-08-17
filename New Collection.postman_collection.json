@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "25e7f961-a175-44f6-a532-8d34a34373db",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29193678"
+	},
+	"item": [
+		{
+			"name": "Godsway API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "PMAT-01H40M7GCGGGYX7EFK4BFTRHZX"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
