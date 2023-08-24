@@ -1,0 +1,328 @@
+{
+	"id": "cedd6984-179f-49cf-9db0-9d6c74c1b7e0",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-08-24T20:55:57.448Z",
+	"collection_id": "29193678-8483107d-9513-44f4-b539-dc085ee24bd8",
+	"folder_id": 0,
+	"environment_id": "29193678-024d92a1-fbf1-4e12-9f43-0e5c134d55bd",
+	"totalPass": 21,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-08-24T20:55:53.949Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "58d825f0-1ef0-4ed5-8ce2-d484175ad5c1",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 458,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				458
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "f5b860f2-ec61-4e0e-8d8f-a11baf172ee9",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "caefcc35-f37c-4d23-b8ed-d5a8cc22431f",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				246
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "ff316963-477c-45ed-9099-f89d078e9871",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "c11a6c89-01f1-4a6c-a4f5-96c8be9c84b5",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me",
+			"time": 957,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				957
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "4f833420-d186-4851-b1d9-38088b182745",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/:bookId",
+			"time": 374,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code should be 200": false,
+				"Status code name should have OK string": false,
+				"Verify that body contains title": false,
+				"Verify that title is Fusio": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name should have OK string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Verify that body contains title": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Verify that title is Fusio": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				374
+			],
+			"allTests": [
+				{
+					"Status code should be 200": false,
+					"Status code name should have OK string": false,
+					"Verify that body contains title": false,
+					"Verify that title is Fusio": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2494,
+	"collection": {
+		"requests": [
+			{
+				"id": "58d825f0-1ef0-4ed5-8ce2-d484175ad5c1",
+				"method": "GET"
+			},
+			{
+				"id": "f5b860f2-ec61-4e0e-8d8f-a11baf172ee9",
+				"method": "GET"
+			},
+			{
+				"id": "caefcc35-f37c-4d23-b8ed-d5a8cc22431f",
+				"method": "GET"
+			},
+			{
+				"id": "ff316963-477c-45ed-9099-f89d078e9871",
+				"method": "GET"
+			},
+			{
+				"id": "c11a6c89-01f1-4a6c-a4f5-96c8be9c84b5",
+				"method": "GET"
+			},
+			{
+				"id": "4f833420-d186-4851-b1d9-38088b182745",
+				"method": "GET"
+			}
+		]
+	}
+}
